@@ -95,7 +95,9 @@ So here is 000. Here is 001. Here is 010, a.k.a., in our human world of decimal,
 And then we could, of course, keep counting further.
 This now would be 3 and dot dot dot.
 If this other bulb now goes on, and that switch is turned and all three stay on— this, again, was what number?
+
 AUDIENCE: Seven.
+
 DAVID MALAN: OK, so, seven.
 So it's just as simple, relatively, as that, if you will. But how is it that these patterns came to be?
 Well, these patterns actually follow something very familiar.
@@ -119,7 +121,9 @@ Here's your 000 because it's 4 times 0, 2 times 0, 1 times 0, obviously 0.
 This is why we got the decimal number 1 in binary.
 This is why we got the number 2 in binary, because it's 4 times 0, plus 2 times 1, plus 1 times 0, and now 3, and now 4, and now 5, and now 6, and now 7.
 And, of course, if you wanted to count as high as 8, to be clear, what do you have to do? What does a computer need to do to count even higher than 7?
+
 AUDIENCE: Add a bit.
+
 DAVID MALAN: Add a bit. Add another light bulb, another switch.
 And, indeed, computers have standardized just how many zeros and ones, or bits or switches, they throw at these kinds of problems.
 And, in fact, most computers would typically use at least eight at a time.
@@ -130,10 +134,14 @@ But computers, of course, let you send text messages, write documents, and so mu
 So how would a computer represent something like a letter, like the letter A of the English alphabet, if, at the end of the day, all they have is switches?
 Any thoughts?
 Yeah.
+
 AUDIENCE: You can represent letters in numbers.
+
 DAVID MALAN: OK, so we could represent letters using numbers.
 OK, so what's a proposal? What number should represent what?
+
 AUDIENCE: Say if you were starting at the beginning of the alphabet, you could say 1 is A, 2 is B, 3 is C.
+
 DAVID MALAN: Perfect.
 Yeah, we just all have to agree somehow that one number is going to represent one letter.
 So 1 is A, 2 is B, 3 is C, Z is 26, and so forth.
@@ -150,15 +158,21 @@ If now Excel displays 65 is an A, let alone Bs and Cs.
 So how might a computer do as you've proposed, have this mapping from numbers to letters, but still support numbers?
 It feels like we've given something up.
 Yeah?
+
 AUDIENCE: By having a prefix for letters?
+
 DAVID MALAN: By having a prefix?
+
 AUDIENCE: You could have prefixes and suffixes.
+
 DAVID MALAN: OK, so we could perhaps have some kind of prefix, like some pattern of zeros and ones--
 I like this-- that indicates to the computer here comes another pattern that represents a letter.
 Here comes another pattern that represents a number or a letter.
 So, not bad. I like that. Other thoughts?
 How might a computer distinguish these two? Yeah.
+
 AUDIENCE: Have a different file format, so, like, odd text or just check the graphic or--
+
 DAVID MALAN: Indeed, and that's spot-on.
 Nothing wrong with what you suggested, but the world generally does just that.
 The reason we have all of these different file formats in the world, like JPEG and GIF and PNGs and Word documents, .docx, and Excel files and so forth, is because a bunch of humans got in a room and decided, well, in the context of this type of file, or really, more specifically, in the context of this type of program, Excel versus Photoshop versus Google Docs or the like, we shall interpret any patterns of zeros and ones as being maybe numbers for Excel, maybe letters in, like, a text messaging program or Google Docs, or maybe even colors of the rainbow in something like Photoshop and more.
@@ -171,13 +185,19 @@ And that quickly became a problem.
 But if we start simply now, in English, the mapping itself is fairly straightforward.
 So if A is 65, B it 66, and dot dot dot, suppose that you received a text message, an email, from a friend, and underneath the hood, so to speak, if you kind of looked inside the computer, what you technically received in this text or this email happened to be the numbers 72, 73, 33, or, really, the underlying pattern of zeros and ones.
 What might your friend have sent you as a message, if it's 72, 73, 33?
+
 AUDIENCE: Hey.
+
 DAVID MALAN: Hey? Close.
+
 AUDIENCE: Hi.
+
 DAVID MALAN: Hi. It's, indeed, hi. Why?
 Well, apparently, according to this little cheat sheet, H is 72, I is 73.
 It's not obvious from this chart what the 33 is, but indeed, this pattern represents "hi." And anyone want to guess, or if you know, what 33 is?
+
 AUDIENCE: Exclamation point.
+
 DAVID MALAN: Exclamation point. And this is, frankly, not the kind of thing most people know.
 But it's easily accessible by a nice user-friendly chart like this.
 So this is an ASCII chart.
@@ -233,9 +253,13 @@ This has happened too when what was a gun became a water pistol in some manufact
 And so it's an interesting dichotomy between what information we all want to represent and how we choose, ultimately, to represent it.
 Questions, then, on these representations of formats, be it numbers or letters, or soon more.
 Yeah?
+
 AUDIENCE: Why is decimal popular for a computer if binary is the basis for everything?
+
 DAVID MALAN: Sorry, why is what so popular?
+
 AUDIENCE: Why is the decimal popular if binary is the fundamental--
+
 DAVID MALAN: Yeah, so we'll come back to this in a few weeks, in fact.
 There are other ways to represent numbers.
 Binary is one. Decimal is another. Unary is another.
@@ -245,15 +269,19 @@ And so, four bits, if you have two digits in hex, that gives you eight.
 And it's just a very convenient unit of measure.
 And it's also human convention in the world of files and other things.
 But we'll come back to that soon. Other questions?
+
 AUDIENCE: Do the lights on the stage supposedly say that--
+
 DAVID MALAN: Do the lights on the stage supposedly say anything?
 Well, if we had thought in advance to use maybe 64 light bulbs, that would seem to give us 8 total bytes on stage, 8 times 8, giving us just that.
 Maybe.
 Good question. Other questions on 0's and 1's? It's a little bright in here.
 No? Oh, yes? Where everyone's pointing somewhere specific.
 There we go. Sorry. Very bright in this corner.
+
 AUDIENCE: I was just going to ask about the 255 bits, like with the maximum characters.
 [INAUDIBLE]
+
 DAVID MALAN: Ah, sure, and we’ll come back to this, in some form, in the coming days too, at a slower pace too, we have, with eight bits, two possible values for the first and then two for the next, two for the next, and so forth.
 So that's 2 times 2 times 2.
 That's 2 to the eighth power total, which means you can have 256 total possible patterns of zeros and ones.
@@ -265,118 +293,217 @@ Well let me ask the question again.
 How might a computer, do you think, knowing what you know now, represents something like a color?
 Like what are our options if all we’ve got are zeros and ones and switches?
 Yeah?
-AUDIENCE: RGB DAVID MALAN: RGB. RGB indeed is this acronym that represents some amount of red and some amount of green and blue and indeed computers can represent colors by just doing that.
+
+AUDIENCE: RGB
+
+DAVID MALAN: RGB. RGB indeed is this acronym that represents some amount of red and some amount of green and blue and indeed computers can represent colors by just doing that.
 Remembering, for instance, this dot.
 This yellow dot on the screen that might be part of any of those emojis these days, well that's some amount of red, some amount of green, some amount of blue.
 And if you sort of mix those colors together, you can indeed get a very specific one.
 And we'll see you in just a moment just that.
 So indeed earlier on, humans only used seven bits total.
-And it was only once they decided, well, let's add an eighth bit that they got extended ASCII and that was initially in part a solution to the same problem of not having enough room, if you will, in those patterns of zeros and ones to represent all of the characters that you might want.
-But even that wasn't enough and that’s why we've now gone up to 16 and 32 and long past 7.
+And it was only once they decided, well, let's add an eighth bit that they got extended ASCII and that was initially in part a solution to the same problem of not having enough room, if you will, in those patterns of zeros and ones to represent all of the characters that you might want.  
+But even that wasn't enough and that’s why we've now gone up to 16 and 32 and long past 7 bits.
 So if we come back now to this one particular color. RGB was proposed as a scheme, but how might this work? Well, consider for instance this.
 If we do indeed decide as a group to represent any color of the rainbow with some mixture of some red, some green, and some blue, we have to decide how to represent the amount of red and green and blue.
-Well, it turns out if all we have are zeros and ones, ergo numbers, let's do just that.
-For instance, suppose a computer we’re using, these three numbers 72, 73, 33, no longer in the context of an email or a text message, but now in the context of something like Photoshop, a program for editing and creating graphical files, maybe this first number could be interpreted as representing some amount of red, green, and blue, respectively.
+
+> simplify the problem  
+> rainbow -> seven colors -> rgb(red, green, blue)
+
+Well, it turns out if all we have are zeros and ones, `ergo` numbers, let's do just that.
+
+For instance, suppose a computer we’re using, these three numbers 72, 73, 33, no longer in the context of an email or a text message, but now in the context of something like Photoshop, a program for editing and creating graphical files, maybe this first number could be interpreted as representing some amount of red, green, and blue, `respectively`.
+
 And that's exactly what happens. You can think of the first digit as red, second as green, third as blue.
-And so ultimately when you combine that amount of red, that amount of green, that amount of blue, it turns out it’s going to resemble the shade of yellow.
-And indeed, you can come up with a numbers between 0 and 255 for each of those colors to mix any other color that you might want.
+And so ultimately when you combine that amount of red, that amount of green, that amount of blue, it turns out it’s going to resemble `the shade of yellow`.
+
+> rgb(red, green, blue) -> rgb(72, 73, 33) -> shade yellow
+
+And indeed, you can `come up with` a numbers between 0 and 255 for each of those colors to mix any other color that you might want.
+
 And you can actually see this in practice.
-Even though our screens, admittedly, are getting really good on our phones and laptops such that you barely see the dots, they are there.
-You might have heard the term pixel before.
-Pixel's just a dot on the screen and you’ve got thousands, millions of them these days horizontally and vertically.
-If I take even this emoji, which again happens to be one company's interpretation of a face with medical mask and zoom in a bit, maybe zoom in a bit more, you can actually start to see these pixels.
-Things get pixelated because what you're seeing is each of the individual dots that compose this particular image.
-And apparently each of these individual dots are probably using 24 bits, eight bits for red, eight bits for green, eight bits for blue, in some pattern.
+Even though our screens, `admittedly`, are getting really good on our phones and laptops such that you `barely` see the dots, they are there.
+
+You might have heard the `term` _pixel_ before.
+
+Pixel's just a dot on the screen and you’ve got thousands, millions of them these days `horizontally` and `vertically`.
+
+If I take even this emoji, which again happens to be one company's interpretation of a face with `medical mask` and `zoom` in a bit, maybe zoom in a bit more, you can actually start to see these pixels.
+Things get `pixelated` because what you're seeing is each of the `individual` dots that `compose` this particular image.
+
+And apparently each of these individual dots are probably using `24 bits`, _eight bits for red, eight bits for green, eight bits for blue_, in some pattern.
+
 This program or some other like Photoshop is interpreting one pattern and it's white or yellow or black or some brown in between.
-So if you look sort of awkwardly, but up close to your phone or your laptop or maybe your TV, you can see exactly this, too.
+So if you look sort of `awkwardly`, but up close to your phone or your laptop or maybe your TV, you can see exactly this, too.
+
 All right, well, what about things that we also watch every day on YouTube or the like?
 Things like videos. How would a computer, knowing what we know now, represent something like a video?
 How might you represent a video using only zeros and ones? Yeah?
-AUDIENCE: As we can see here, they represent images, right?
-[INAUDIBLE] sounds of the 0 and 1s as well.
+
+AUDIENCE: As we can see here, they represent images, right? Sounds of the 0 and 1s as well.
+
 [INAUDIBLE]
-DAVID MALAN: Yeah, exactly. To summarize, what video really adds is just some notion of time.
-It's not just one image, it’s not just one letter or a number, it's presumably some kind of sequence because time is passing.
+
+DAVID MALAN: Yeah, exactly. To `summarize`, what video really adds is just some notion of time. It's not just one image, it’s not just one letter or a number, it's `presumably` some kind of `sequence` because time is passing.
+
 So with a whole bunch of images, maybe 24 maybe 30 per second, if you fly them by the human's eyes, we can interpret them using our eyes and brain that there is now movement and therefore video.
 Similarly with audio or music.
-If we just came up with some convention for representing those same notes on a musical instrument, could we have the computer synthesize them, too?
+
+If we just `came up with` some `convention` for representing those same notes on a musical `instrument`, could we have the computer `synthesize` them, too?
+
 And this might be actually pretty familiar.
+
 Let me pull up a quick video here, which happens to be an old school version of the same idea. You might remember from childhood.
-So granted that particular video is an actual video of a paper-based animation, but indeed, that's really all you need, is some sequence of these images, which themselves of course are just zeros and ones because they’re just this grid of these pixels or dots.
-Now something like musical notes like these, those of you who are musicians might just naturally play these on physical devices, but computers can certainly represent those sounds, too.
-For instance, a popular format for audio is called MIDI and MIDI might just represent each note that you saw a moment ago essentially as a sequence of numbers.
-But more generally, you might think about music as having notes, for instance, A through G, maybe some flats and some sharps, you might have the duration like how long is the note being heard or played on a piano or some other device, and then just the volume like how hard does a human in the real world press down on that key and therefore how loud is that sound?
-It would seem that just remembering little details like that quantitatively we can then represent really all of these otherwise analog human realities.
-So that then is really a laundry list of ways that we can just represent information.
-Again, computers or digital have all of these different formats, but at the end of the day and as fancy as those devices in years are, it's just zeros and ones, tiny little switches or light bulbs, if you will, represented in some way and it's up to the software that you and I and others write to use those zeros and ones in ways we want to get the computers to do something more powerfully.
-Questions, then, on this representation of information, which I daresay is ultimately what problem solving is all about, taking in information and producing new via some process in between.
+
+So `granted` that particular video is an actual video of a paper-based `animation`, but indeed, that's really all you need, is some sequence of these images, which themselves of course are just zeros and ones because they’re just this `grid` of these pixels or dots.
+
+Now something like `musical notes` like these, those of you who are `musicians` might just naturally play these on physical devices, but computers can certainly represent those sounds, too.
+
+> people play piano -> pc represent sounds
+
+For instance, a popular format for audio is called MIDI and MIDI might just represent each note that you saw a moment ago `essentially` as a sequence of numbers.
+
+But more `generally`, you might think about music as having notes, for instance, A through G, maybe some `flats` and some `sharps`, you might have the `duration` like how long is the note being heard or played on a piano or some other device, and then just the `volume` like how hard does a human in the real world press down on that key and therefore how loud is that sound?
+
+> the type of notes, how long and hard(loud) the note playe
+
+It would seem that just remembering little details like that `quantitatively` we can then represent really all of these otherwise `analog` human `realities`.
+
+So that then is really `a laundry list of ways` that we can just represent information.
+
+Again, computers or digital have all of these different formats, but at the end of the day and `as fancy as` those devices in years are, it's just zeros and ones, tiny little switches or light bulbs, if you will, represented in some way and `it's up to` the software that you and I and others write to use those zeros and ones in ways we want to get the computers to do something more powerfully.
+
+> we do sth powerfully by using software, it's just 0 and 1s, represent in different ways
+
+Questions, then, on this representation of information, which I daresay is ultimately what problem solving is all about, taking in information and producing new (information) `via some process` in between.
+
+> input -> process / function -> output
+
 Any questions there? Yeah, in back.
-AUDIENCE: Yeah, so we talked about how different file formats kind of allow you to interpret information.
-How does a file format like .mp4 discriminate between audio and video within itself as a value?
+
+AUDIENCE: Yeah, so we talked about how different file formats kind of allow you to interpret information. How does a file format like .mp4 `discriminate` between audio and video within itself as a value?
+
 DAVID MALAN: So a really good question. There are many other file formats out there.
-You allude to MP4 for video and more generally the use are these things called codecs and containers.
+You `allude` to MP4 for video and more generally the use are these things called `codecs` and `containers`.
 It's not quite as simple when using larger files, for instance, in more modern formats that a video is just a sequence of images, for instance.
 Why?
+
 If you stored that many images for like a Hollywood movie, like 24 or 30 of them per second, that's a huge number of images.
-And if you've ever taken photos on your phone, you might know how many megabytes or larger even individual photographs might be.
-So humans have developed over the years a fancier software that uses much more math to represent the same information more minimally just using somehow shorter patterns of zeros and ones than are most simplistic representation here.
-And they use what might be called compression.
-If you've ever used a zip file or something else, somehow your computer is using fewer zeros and ones to represent the same amount of information, ideally without losing any information.
-In the world of multimedia, which we’ll touch on a little bit in a few weeks, there are both lossy and lossless formats out there.
+
+> 24 images/second * 60 seconds * 120 minutes
+
+And if you've ever taken photos on your phone, you might know how many megabytes or larger even individual `photographs` might be.
+
+So humans have developed over the years a `fancier software` that uses much more math to represent the same information more minimally just using somehow shorter patterns of zeros and ones than are most simplistic representation here.
+
+> same information -> minimally zeros and ones
+
+And they use what might be called `compression`.
+
+If you've ever used a zip file or something else, somehow your computer is using fewer zeros and ones to represent the same amount of information, `ideally` without losing any information.
+
+In the world of `multimedia`, which we’ll `touch on` a little bit in a few weeks, there are both `lossy` and `lossless` formats out there.
+
 Lossless means you lose no information whatsoever.
-But more commonly as you're alluding to one is lossy compression, L-O-S-S-Y, where you're actually throwing away some amount of quality.
-You're getting some amount of pixelation that might not look perfect to the human, but heck it's a lot cheaper and a lot easier to distribute.
-And in the world of multimedia, you have containers like QuickTime and other MPEG containers that can combine different formats of video, different formats of audio in one file, but there, too, do designers have discretion.
-So more in a few weeks, too. Other questions, then, on information here as well?
+
+But more commonly as you're `alluding` to one is lossy compression, L-O-S-S-Y, where you're actually throwing away some amount of quality.
+
+You're getting some amount of `pixelation` that might not look perfect to the human, but heck it's a lot cheaper and a lot easier to `distribute`.
+
+And in the world of multimedia, you have containers like QuickTime and other MPEG containers that can combine different formats of video, different formats of audio in one file, but there, too, do designers have `discretion`.So more in a few weeks, too.
+
+Other questions, then, on information here as well?
 Yeah?
-AUDIENCE: So I know computers used to be very big and taking up like a whole room and stuff.
-Is the reason they've gotten smaller because we can store this information piecemeal or what?
-DAVID MALAN: Exactly. I mean, back in the day you might have heard of the expression a vacuum tube, which is like some physically large device that might have only stored some 0 or 1.
-Yes, it is the miniaturization of hardware these days that has allowed us to store as many and many more zeros and ones much more closely together.
-And as we've built more fancy machines that can sort of design this hardware at an even smaller scale, we're just packing more and more into these devices.
-But there, too, is a trade off.
-For instance, you might know by using your phone or your laptop for quite a while, maybe on your lap, starts to get warm.
-So there are these literal physical side effects of this where now some of our devices run hot.
-This is why like a data center in the real world might need more air conditioning than a typical place, because there are these physical artifacts as well.
-In fact, if you'd like to see one of the earliest computers from decades ago, across the river here in now Allston in the new engineering building is the Harvard Mark 1 computer that will give you a much better mental model of just that.
+
+AUDIENCE: So I know computers used to be very big and taking up like a whole room and stuff. Is the reason they've gotten smaller because we can store this information `piecemeal` or what?
+
+DAVID MALAN: Exactly. I mean, `back in the day` you might have heard of the expression `a vacuum tube`, which is like some `physically` large device that might have only stored some 0 or 1.
+Yes, it is the `miniaturization` of hardware these days that has allowed us to store as many and many more zeros and ones much more closely together.
+
+> vacuum tube (large and store less) -> miniaturization
+
+And as we've built more `fancy` machines that can sort of design this hardware at an even smaller `scale`, we're just `packing` more and more into these devices.
+
+But there, too, is a `trade off`. For instance, you might know by using your phone or your laptop `for quite a while`, maybe on your `lap`, starts to get warm.
+
+So there are these literal physical `side effects` of this where now some of our devices run hot.
+
+This is why like a data center in the real world might need more `air conditioning` than a typical place, because there are these physical `artifacts` as well.
+
+In fact, if you'd like to see one of the earliest computers from `decades` ago, across the river here in now Allston in the new engineering building is the *Harvard Mark 1 computer* that will give you a much better `mental model` of just that.
+
 Well if we come back now to this first picture being computer science or really problem solving, I daresay we have more than enough ways now to represent information, input and output, so long as we all just agree on something and thankfully all of those before us have given us things like ASCII and Unicode.
-Not to mention MP4s, word documents, and the like.
-But what's inside of this proverbial black box into which these inputs are going in the outputs are coming?
+
+> information represent -> ASCII, Unicode
+
+`Not to mention` MP4s, word documents, and the like.
+
+But what's inside of this `proverbial` black box into which these inputs are going in, the outputs are coming?
+
 Well that's where we get this term you might have heard, too.
-An algorithm, which is just step-by-step instructions for solving some problem incarnated in the world of computers by software.
-When you write software aka programs, you are implementing one or more algorithms, one or more sets of instructions for solving some problem, and maybe you're using this language or that, but at the end of the day, no matter the language you use the computer is going to represent what you type using just zeros and ones.
-So what might be a representative algorithm?
-Nowadays you might use your phone quite a bit to make calls or send texts or emails and therefore you have a whole bunch of contacts in your address book.
+
+An `algorithm`, which is just step-by-step `instructions` for solving some problem `incarnated` in the world of computers by software.
+
+> algorithm -> software in computer -> step-by-step instructions
+
+When you write software aka programs, you are `implementing` one or more algorithms, one or more sets of instructions for solving some problem, and maybe you're using this language or that, but `at the end of the day`, no matter the language you use, the computer is going to represent, what you type, using just zeros and ones.
+
+> at the end of the day -> finally, in a word
+
+So what might be a `representative` algorithm?
+
+Nowadays you might use your phone `quite a bit` to make calls or send texts or emails and therefore you have a whole bunch of contacts in your address book.
+
 Nowadays, of course, this is very digital, but whether on iOS or Android or the like, you might have a whole bunch of names, first name and/or last, as well as numbers and emails and the like.
+
 You might be in the habit of like scrolling through on your phone all of those names to find the person you want to call.
+
 It's probably sorted alphabetically by first name or last name, A through Z, or some other symbol.
+
 This is frankly quite the same as we used to do back in my day, CS50, when we just used a physical book.
+
 In this physical book might be a whole bunch of names alphabetically sorted from left to right corresponding to a whole bunch of numbers.
+
 So suppose that in this old Harvard phone book we want to search for John Harvard.
+
 We might of course start quite simply at the beginning here, looking at one page at a time, and this is an algorithm.
+
 This is like literally step-by-step looking for the solution to this problem.
+
 In that sense, if John Harvard's in the phone book, is this algorithm page-by-page correct, would you say?
+
 AUDIENCE: Yes.
+
 DAVID MALAN: Yes.
+
 Like if John Harvard’s in the phone book, obviously I'm eventually going to get to him, so that's what we mean by correct.
 Is it efficient? Is it well designed, would you say? No.
+
 I mean this is going to take forever even just to get to the Js or the Hs, depending how this thing's sorted.
 All right, well let me go a little faster.
 I'll start like two pages at a time. 2, 4, 6, 8, 10, 12, and so forth. Sounds faster, is faster, is it correct?
+
 AUDIENCE: No.
+
 DAVID MALAN: OK, why is it not correct? Yeah?
+
 AUDIENCE: So if you’re starting on page 1, you're only going odd number of pages, so if it's on an even number page, you'll miss it.
+
 DAVID MALAN: Exactly.
 If I start on an odd number of pages and I'm going two at a time I might miss pages in between.
 And if I therefore conclude when I get to the back of the book there was no John Harvard, I might have just errored.
 This would be again one of these bugs. But if I try a little harder, I feel like there's a solution. We don't have to completely throw out this algorithm.
 I think we can probably go roughly twice as fast still. But what should we do instead to fix this? Yeah, in back.
+
 AUDIENCE: [INAUDIBLE]
+
 DAVID MALAN: Nice.
 So I think what many of us, most of us, if we even use this technology any more these days, we might go roughly to the middle of the phone book just to kind of get us started.
 And now I'm looking down, I'm looking for J, assuming first name, J Harvard, and it looks like I'm in the M section.
 So just to be clear, what should I do next?
+
 AUDIENCE: [INAUDIBLE]
+
 DAVID MALAN: OK, and presumably it is John Harvard would be to the left of this.
 So here's an opportunity to figuratively and literally tear this particular problem in half, throw half of the problem away.
 It's actually pretty easy if you just do it that way.
@@ -419,13 +546,19 @@ Put another way, you can walk it way, way, way out here to a much bigger phone b
 So this then is just a way of now formalizing and thinking about what the performance or quality of these algorithms might be.
 Before we now make one more formalization of the algorithm itself, any questions then on this notion of efficiency or now performance of ideas?
 Yeah.
+
 AUDIENCE: How many phone books have you got?
+
 DAVID MALAN: (LAUGHING) A lot of phone books over the years and if you or your parents have any more still somewhere we could definitely use them because they're hard to find.
 Other questions? But thanks.
 Other questions here, too? No. Oh, was that a murmur? Yes, over here.
+
 AUDIENCE: You could get Harry Potter as a guest speaker.
+
 DAVID MALAN: Sorry, say again.
+
 AUDIENCE: You could get Harry Potter as a guest speaker.
+
 DAVID MALAN: (LAUGHING) Oh, yeah. Hopefully.
 Then we'd have a little something more to use here.
 So now if we want to formalize further what it is we just did, we can go ahead and introduce this.
@@ -443,7 +576,9 @@ Why?
 Because I can just repeat what I just did, but with a smaller problem having taken this big bite.
 But, if the person was later in the book, as might have happened with a different person than John Harvard, then I should open to the middle of the right half of the book, again go back to line three, but again, I’m not going to get sucked doing something forever like this because I keep shrinking the size of the problem.
 Lastly, the only possible scenario that’s left, if John Harvard is not on the page and he's not to the left and he's not to the right, what should our conclusion be?
+
 AUDIENCE: He's not there.
+
 DAVID MALAN: He's not there. He's not listed. So we need to quit in some other form.
 Now as an aside, it's kind of deliberate that I buried that last question at the end because this is what happens all too often in programming, whether you're new at it or professional, just not considering all possible cases, corner cases if you will, that might not happen that often, but if you don't anticipate them in your own code, pseudocode or otherwise, this is when and why programs might crash or you might say stupid little spinning beach balls or hourglasses or your computer might reboot.
 Why?
@@ -572,7 +707,9 @@ Enter. Huh. All right, maybe I just wasn't paying close enough attention.
 Let me try it again. Green flag, D-A-V-I-D, Enter.
 This seems like a bug. What's the bug or mistake might you think?
 Yeah?
+
 AUDIENCE: Do you need to somehow add them together in the same text box?
+
 DAVID MALAN: Yeah, we kind of want to combine them in the same text box.
 And it's technically a bug because this just looks kind of stupid.
 It's just saying David after I asked for my name.
@@ -580,7 +717,9 @@ I'd like it to say maybe Hello then David, but it's just blowing past the Hello 
 But let's put our finger on why this is happening.
 You're right for the solution, but what's the actual fundamental problem?
 In back.
+
 AUDIENCE: So it says hello, but it gets to that last step so quickly you can't see it.
+
 DAVID MALAN: Perfect. I mean, computers are really darn fast these days.
 It is saying Hello, all of us are just too slow in this room to even see it because it's then saying David on the screen so fast as well.
 So there's a couple of solutions here, and yours is spot on, but just to poke around, you'll see the first example of how many ways in programming be it Scratch or C or Python or anything else, that there are going to be to solve problems?
@@ -633,12 +772,14 @@ So now let me stop the old version.
 Let me start the new.
 What's your name? Type in David.
 And voila: PROGRAM: Hello, banana.
+
 DAVID MALAN: (LAUGHING) OK, minus 2 for real.
 All right, so what I accidentally threw away there, intentionally for instructional purposes, was the actual answer that came back from the ask block.
 That's embarrassing.
 So now if I play this again, let's click the green icon.
 What's your name? David.
 And now: PROGRAM: Hello, David.
+
 DAVID MALAN: There we go. Hello, David. All right, thank you.
 [APPLAUSE]
 OK, so we have these functions then in place, but what more can we do?
@@ -662,10 +803,14 @@ Let me go to Control, wait one second in between, which might be a little less w
 [THREE SLOWER MEOWS]
 OK, so if my goal was to make the cat meow three times, I dare say this code or algorithm is correct. But let's now critique its design. Is this well-designed?
 And if not, why not? What are your thoughts here? Yeah?
+
 AUDIENCE: You could use the forever or a repeat to make it more--
+
 DAVID MALAN: Yeah, so yeah, agreed. I could use forever or repeat, but let me push a little harder. But why?
 Like this works, I'm kind of done with the assignments, what's bad about it?
+
 AUDIENCE: There's too much repetition.
+
 DAVID MALAN: Yeah, there's too much repetition, right?
 If I wanted to change the sound that the cat is making to a different variant of meow or have it bark instead like a dog, I could change it from the dropdown here apparently, but then I'd have to change it here and then I'd have to change it here, and God, if this were even longer that just gets tedious quickly and you're probably increasing the probability that you're going to screw up and you're going to miss one of the dropdowns or something stupid and introduce a bug.
 Or, if you wanted to change the number of seconds you're waiting, you've got to change it in two, maybe even more places.
@@ -739,7 +884,9 @@ Here we go. Play.
 [SILENCE] All right, let's try again. Play.
 [SILENCE] Huh. I'm worried it's not Scratch's fault. Feels like mine.
 What's the bug here? Why doesn't this work? Yeah, in back, who just turned.
+
 AUDIENCE: [INAUDIBLE]
+
 DAVID MALAN: Yeah, the problem is the moment I click that green flag, Scratch asks the question, is the cat touching the mouse pointer?
 And obviously it's not because the cursor was like up there a moment ago and it's not down there.
 It's fine if I move the cursor down there, but too late.
@@ -767,7 +914,9 @@ So here's the cat. We'll put them on top of there.
 [MEOW] OK. All right, and here we go.
 [MEOW] So my hand is moving faster than 50 something or other, whatever the unit of measure is.
 [MEOW]
+
 AUDIENCE: Aw.
+
 DAVID MALAN: (LAUGHING) Thank you.
 So now we have an even more interactive version.
 [MEOW] But I think if I sort of slowly.
@@ -784,14 +933,18 @@ Let me go ahead and zoom out of this in just a moment.
 (LAUGHING) If someone would be comfortable coming up not only masked but also on camera on the internet I thought we'd play one of your former classmate's projects here up on stage.
 Would anyone like to volunteer here and be up on stage?
 Who's that? Yeah. Come on down. What's your name?
+
 AUDIENCE: Sahar.
+
 DAVID MALAN: Sahar. All right, come on down. Let me get it set up for you here.
 [MEOW] [APPLAUSE] [MEOW]
 All right, let me go ahead and full screen this here.
 So this is whack-a-mole by one of your firmer predecessors.
 It's going to use the camera focusing on your head, which will have to position inside of this rectangle.
 Have you ever played the whack-a-mole game at an arcade?
+
 AUDIENCE: Yeah.
+
 DAVID MALAN: OK.
 So for those who haven’t, these little moles pop up and with a very fuzzy hammer you sort of hit down.
 You though, if you don't mind, you're going to use your head to do this virtually.
@@ -803,7 +956,9 @@ OK, come a little closer.
 [DING] One point.
 [DINGING] Nice. 15 seconds to go. There we go. Oh yeah. One point.
 [LAUGHING] [DINGING] Six seconds.
+
 AUDIENCE: Oh no.
+
 DAVID MALAN: There we go. Quick!
 [DINGING] All right, a round of applause for Sahar. Thank you.
 [APPLAUSE]
@@ -820,26 +975,34 @@ Let me go ahead and open here, give me just one second, something that I called 
 If I fullscreen it and hit Play.
 [MUSIC - SESAME STREET, "I LOVE TRASH"]
 OSCAR THE GROUCH: (SINGING) Oh, I love trash.
+
 DAVID MALAN: So you'll notice a piece of trash is falling.
 I can click on it and drag and as I get close and close to the trash can notice OSCAR THE GROUCH: (SINGING) Anything ragged or--
+
 DAVID MALAN: It wants to go in, it seems.
 And if I let go--
 OSCAR THE GROUCH: (SINGING) Yes, I--
+
 DAVID MALAN: One point.
 Here comes another.
 OSCAR THE GROUCH: (SINGING) If you really want to see something trashy--
+
 DAVID MALAN: I'll do the same, two points.
 OSCAR THE GROUCH: (SINGING) I have here a sneaker that's tattered and worn--
+
 DAVID MALAN: There's a sneaker falling from the sky, so another sprite of some sort.
 OSCAR THE GROUCH: (SINGING) The laces are torn.
 A gift from my mother--
+
 DAVID MALAN: I can also get just a little lazy and just let them fall into the trash themself if I want to.
 So you can see it doesn't have to do with my mouse cursor, it has to do apparently with the distance here.
 Let's listen a little further. I think some additional trash is about to make its appearance. Presumably there's some kind of variable that's keeping track of this score.
 OSCAR THE GROUCH: (SINGING) I love--
+
 DAVID MALAN: OK, let's see what the last chorus here is.
 OSCAR THE GROUCH: (SINGING) Rotten stuff.
-I have here some newspaper, crusty and DAVID MALAN: OK, and thus he continues.
+I have here some newspaper, crusty and
+DAVID MALAN: OK, and thus he continues.
 And the song actually goes on and on and on and I do not have fond memories of implementing this and hearing this song for like 10 straight hours, but it's a good example to just consider how was this program composed?
 How did I go about implementing it the first time around?
 And let me go ahead and open up some programs now that I wrote in advance just so that we could see how these things are assembled.
@@ -881,7 +1044,9 @@ Now without seeing the code yet, just hearing that description, why might I have
 What might I have been thinking?
 Like what problem might I be trying to solve?
 Yeah?
+
 AUDIENCE: You don't want the first sprite to go through it.
+
 DAVID MALAN: Yeah, you don't want the first sprite to start at the top, go through, and then boom, you completely lose it.
 That would not be a very useful thing.
 Or it would seem to maybe eat up more and more of the computer's memory if the trash is just endlessly falling and I can't grab it.
@@ -935,7 +1100,9 @@ All right, it's falling, I'm clicking and dragging it, I'm moving it over, and I
 Letting go, let me stop.
 Why do I have this function at the end called Go To x and y randomly?
 Like what problem is this solving here? Yeah, in way back.
+
 AUDIENCE: Just the same track teleported to the top after you put it in the trash can.
+
 DAVID MALAN: Yeah, exactly.
 Even though the human perceives this as like a lot of trash falling from the sky, it's actually the same piece of trash, just kind of being magically moved back to the top as though it's a new one.
 There, too, you have this idea of reusable code.
@@ -951,7 +1118,9 @@ And left, left, left, left, left, left, left, left, left, left, left, left, left
 So before we look at the code, how might this be working?
 What kinds of scripts, collections of puzzle pieces, might collectively help us implement this?
 What do you think?
+
 AUDIENCE: [INAUDIBLE]
+
 DAVID MALAN: Perfect, yeah.
 There's probably some question being asked, if touching the black line, and it happens to be a couple of sprites, each of which is just literally a vertical black line we're probably asking a question like, are you touching it?
 Is the distance to it zero or close to zero?
@@ -960,9 +1129,13 @@ So that works.
 But otherwise, if we're not touching a wall, what are we probably doing instead forever here?
 How is the movement working presumably?
 Yeah and back. Oh are you scratching? OK, sure. Let's go on.
+
 AUDIENCE: [INAUDIBLE]
+
 DAVID MALAN: Sorry, say a little louder.
+
 AUDIENCE: Presumably it's continually looking for you to hit the arrow keys and then moving when you do.
+
 DAVID MALAN: Exactly.
 It's continually, forever listening for the arrow keys up, down, left, right, and if the up arrow is pressed, we're probably changing the y by a positive value.
 If the down arrow is pressed, we're going down by y, and left and right accordingly.
@@ -993,7 +1166,9 @@ Uh oh, Yale is in the way and it seems to be automatically bouncing back and for
 Well, let me ask someone else. Hypothesize. How is this working?
 This is an idea you have, this as an idea you see. Let's reverse engineer in your head how it works. How might this be working?
 Yeah, in back.
+
 AUDIENCE: If the Yale symbol is touching a right wall or left wall, then have it bounce.
+
 DAVID MALAN: Yeah, so if the Yale symbol is touching the left wall or the right wall, we somehow have it bounce.
 And indeed we'll see there's a puzzle piece that can do exactly that technically off the edge, as we'll see, but there's another way we can do this.
 Let's look at the code.
@@ -1008,7 +1183,9 @@ After we do that, we just move one step, one pixel, at a time but we're doing it
 Well one final piece here, what if now we want another adversary, a more advanced adversary down the road for instance, to go and follow us wherever we are such that this time we want the other sprite to not just bounce back and forth, but literally follow us no matter where we go.
 How might this be implemented on the screen?
 I bet it's another forever block, but what's inside?
+
 AUDIENCE: So forever get the location of the of the Harvard shield and move one step towards it.
+
 DAVID MALAN: Yeah, forever point at the location of the Harvard shield and go one step toward it.
 This is just going to go on forever if I just give up, at least in this version.
 Notice it's sort of twitching back and forth because it goes one pixel then one pixel then one pixel.
@@ -1018,7 +1195,9 @@ It didn't take much to implement this simple idea.
 Go to a random position just to make it kind of fair, initially, then forever point towards Harvard, which is what we called the Harvard crest sprite, move one step.
 Suppose we now wanted to make a more advanced level.
 What's a minor change I could logically make to this code just to make MIT even better at this?
+
 AUDIENCE: Change the number of steps to two.
+
 DAVID MALAN: All right, change the number of steps to two.
 So let's try that.
 So now they got twice as fast.
@@ -1033,19 +1212,29 @@ So it's not an accident that we chose these particular examples here involving t
 Let's see, you in the middle.
 Do you want to come on up?
 What's your name?
+
 AUDIENCE: Celeste.
+
 DAVID MALAN: Say again?
+
 AUDIENCE: Celeste.
+
 DAVID MALAN: Come a little closer, actually.
 Sorry, hard to hear here.
 All right, round of applause here if we could, too.
 [APPLAUSE]
 OK, sorry, what was your name?
+
 AUDIENCE: Celeste.
+
 DAVID MALAN: Ceweste.
+
 AUDIENCE: Celeste.
+
 DAVID MALAN: Celeste.
+
 AUDIENCE: Yes.
+
 DAVID MALAN: Come on over.
 Nice to meet you, too.
 So here we have on this other screen Ivy's Hardest Game written by a former CS50 student.
@@ -1057,7 +1246,9 @@ You'll be controlling the Harvard sprite and if we could raise the volume just a
 Here we go, clicking the green flag.
 [MUSIC PLAYING]
 Feeling ready?
+
 AUDIENCE: Yep.
+
 DAVID MALAN: Spacebar.
 [MUSIC - MC HAMMER, "U CAN'T TOUCH THIS"]
 MC HAMMER: (SINGING) Can't touch this.
@@ -1065,17 +1256,22 @@ You can't touch this.
 You can't touch this.
 Can't touch this.
 My, my, my, my music--
+
 DAVID MALAN: Excellent.
 MC HAMMER: (SINGING) so hard.
 Makes me want to say, oh my Lord.
 Thank you for blessing me--
+
 DAVID MALAN: Two Yales now.
 MC HAMMER: (SINGING) Feels good when you know you're down.
 A super dope homeboy--
+
 AUDIENCE: Oh!
+
 DAVID MALAN: Oh! Keep going.
 MC HAMMER: (SINGING) You can't touch this. I told you, homeboy. Can't touch this.
 Yeah, that's how living--
+
 DAVID MALAN: All right.
 MC HAMMER: (SINGING) Can't touch this.
 Look at my eyes, man. You can't touch this. You let me bust the funky lyrics.
@@ -1083,6 +1279,7 @@ You can't touch this. Fresh new kicks and pants. You got it like that and you kn
 [LAUGHING] Hold on.
 Pump a little bit and let them know what's going on like that, like that.
 Cold on a mission, so fall on back. Let them know that you're too--
+
 DAVID MALAN: There you go. There you go.
 [APPLAUSE]
 MC HAMMER: (SINGING) Can't touch this.
@@ -1094,15 +1291,19 @@ They know.
 You talking the Hammer when you're talking about a show.
 That's hyped and tight.
 Singers are sweating so them a wipe or a tame to learn.
+
 DAVID MALAN: Second to last level. Oh!
 MC HAMMER: (SINGING) That chart's legit.
 Either work hard or you might as well quit.
 That word because you know--
+
 DAVID MALAN: Oh!
 Keep going, keep going! Yes!
 MC HAMMER: (SINGING) You can't touch this.
+
 DAVID MALAN: You're almost there.
 MC HAMMER: (SINGING) Break it down.
+
 DAVID MALAN: There you go.
 Go, go, go! Oh. One more. Yes!
 [CHEERING] There you go.
@@ -1113,6 +1314,7 @@ So wave your hands in the air, bust a few moves, run your fingers through your h
 This is it. For a winner. Dance to this and you’re going to get thinner.
 Now move, slide your rump. Just for a minute let's all do the bump.
 [CHEERING]
+
 DAVID MALAN: Yes!
 [APPLAUSE]
 Congratulations. All right, that's it for CS50. Welcome to the class. We'll see you next time.
